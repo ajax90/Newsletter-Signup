@@ -40,7 +40,7 @@ app.post("/", (req, res) => {
 
   const options = {
     method: "POST",
-    auth: "chaitanya:c64cb887ce6fc66f011cfc0fc0337258-us17",
+    auth: "chaitanya:YOUR_API_KEY",
   };
 
   const request = https.request(url, options, (response) => {
@@ -63,8 +63,3 @@ app.post("/failure", (req, res) => {
     res.redirect("/");
 })
 
-// API KEY
-// c64cb887ce6fc66f011cfc0fc0337258-us17
-
-// LIST ID
-// 3e963a9958
